@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; this is same as below*/
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  // color: $color-grey-dark-3;
+  font-family: $font-general;
+  background-color: $color-grey-dark-3;
+}
