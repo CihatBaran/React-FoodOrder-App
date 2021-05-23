@@ -15,7 +15,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const config = {
       url:
-        'https://react-food-order-app-default-rtdb.firebaseio.com/meals.json',
+        'https://react-food-order-app2-default-rtdb.firebaseio.com/meals.json',
     };
     fetchMealsData(config);
   }, [fetchMealsData]);

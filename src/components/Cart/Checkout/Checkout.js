@@ -105,7 +105,7 @@ const Checkout = (props) => {
 
     confirmOrder({
       url:
-        'https://react-food-order-app-default-rtdb.firebaseio.com/orders.json',
+        'https://react-food-order-app2-default-rtdb.firebaseio.com/orders.json',
       method: 'post',
       body: data,
     });
